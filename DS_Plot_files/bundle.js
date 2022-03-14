@@ -438,7 +438,7 @@ const Slider = props => {
           trackClassName: "example-track",
           onChange: props => sendYear(n, props),
           step: 2500,
-          max: 20000000,
+          max: 10000000,
           min: 2500,
           defaultValue: n.default,
           renderThumb: (props, state) => /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxDEV)("div", { ...props,
