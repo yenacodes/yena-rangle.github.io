@@ -199,7 +199,7 @@ const Chart = () => {
             return 'Year ' + d;
           },
           name: value => {
-            if (value === "increaseThroughput") return "Increase in throughput ($MM)";else return 'ROI ($ Return per $ Invested in DS)';
+            if (value === "increaseThroughput") return "Increase in throughput ($MM)";else return 'ROI ($ return per $ invested in DS)';
           }
         }
       },
@@ -238,7 +238,7 @@ const Chart = () => {
             top: 0
           },
           label: {
-            text: "ROI ($ Return per $ Invested in DS)",
+            text: "ROI ($ return per $ invested in DS)",
             position: "outer-middle"
           },
           show: true
@@ -85693,7 +85693,7 @@ if (true) {
 /******/ 	
 /******/ 	/* webpack/runtime/getFullHash */
 /******/ 	(() => {
-/******/ 		__webpack_require__.h = () => ("f1be4efd636174d952de")
+/******/ 		__webpack_require__.h = () => ("3afcee8d92792828c93d")
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/global */
