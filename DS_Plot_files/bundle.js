@@ -160,7 +160,7 @@ const Chart = () => {
   }];
   (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(() => {
     data.map((data, i) => {
-      const flowTime = sliderFlowTime - sliderFlowTime * .93 * Math.pow(.744, 5 - i);
+      const flowTime = sliderFlowTime - sliderFlowTime * .93 * Math.pow(.80, 5 - i);
 
       if (sliderDsCost.year === i + 1) {
         data.dsCost = sliderDsCost.value;
@@ -85693,7 +85693,7 @@ if (true) {
 /******/ 	
 /******/ 	/* webpack/runtime/getFullHash */
 /******/ 	(() => {
-/******/ 		__webpack_require__.h = () => ("3afcee8d92792828c93d")
+/******/ 		__webpack_require__.h = () => ("39d5e7b1482eec854396")
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/global */
