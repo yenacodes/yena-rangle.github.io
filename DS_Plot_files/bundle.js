@@ -419,8 +419,15 @@ const Slider = props => {
     }, undefined)), /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxDEV)("div", {
       className: "costDesignSys",
       children: [/*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxDEV)("span", {
-        children: " Costs of design system "
-      }, void 0, false, {
+        children: [" ", /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxDEV)("p", {
+          align: "left",
+          children: " Costs of design system "
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 51,
+          columnNumber: 24
+        }, undefined), " "]
+      }, void 0, true, {
         fileName: _jsxFileName,
         lineNumber: 51,
         columnNumber: 17
@@ -85693,7 +85700,7 @@ if (true) {
 /******/ 	
 /******/ 	/* webpack/runtime/getFullHash */
 /******/ 	(() => {
-/******/ 		__webpack_require__.h = () => ("d9ea13f2ffcddddee664")
+/******/ 		__webpack_require__.h = () => ("32de0a1f98728e73037f")
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/global */
