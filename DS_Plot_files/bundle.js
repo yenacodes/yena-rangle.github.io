@@ -18,7 +18,7 @@ __webpack_require__.r(__webpack_exports__);
 /* provided dependency */ var __react_refresh_utils__ = __webpack_require__(/*! ./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js */ "./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js");
 __webpack_require__.$Refresh$.runtime = __webpack_require__(/*! ./node_modules/react-refresh/runtime.js */ "./node_modules/react-refresh/runtime.js");
 
-var _jsxFileName = "/Users/yena/Downloads/chart-c3/my-app/src/App.js";
+var _jsxFileName = "/Users/yena/Library/Mobile Documents/com~apple~CloudDocs/Work/Scripts/Rangle/DS_FundingCase/chart-c3/my-app/src/App.js";
 
 
 
@@ -98,7 +98,7 @@ __webpack_require__.r(__webpack_exports__);
 /* provided dependency */ var __react_refresh_utils__ = __webpack_require__(/*! ./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js */ "./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js");
 __webpack_require__.$Refresh$.runtime = __webpack_require__(/*! ./node_modules/react-refresh/runtime.js */ "./node_modules/react-refresh/runtime.js");
 
-var _jsxFileName = "/Users/yena/Downloads/chart-c3/my-app/src/components/Chart.jsx",
+var _jsxFileName = "/Users/yena/Library/Mobile Documents/com~apple~CloudDocs/Work/Scripts/Rangle/DS_FundingCase/chart-c3/my-app/src/components/Chart.jsx",
     _s = __webpack_require__.$Refresh$.signature();
 
 
@@ -166,8 +166,8 @@ const Chart = () => {
         data.dsCost = sliderDsCost.value;
       }
 
-      data.increaseThroughput = ((365 / flowTime - 365 / sliderFlowTime) * sliderTHpi).toFixed(2);
-      data.roi = (data.increaseThroughput / data.dsCost).toFixed(2);
+      data.increaseThroughput = Math.round((365 / flowTime - 365 / sliderFlowTime) * sliderTHpi);
+      data.roi = Math.round(data.increaseThroughput / data.dsCost);
       return data;
     });
     c3__WEBPACK_IMPORTED_MODULE_1___default().generate({
@@ -324,7 +324,7 @@ __webpack_require__.r(__webpack_exports__);
 /* provided dependency */ var __react_refresh_utils__ = __webpack_require__(/*! ./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js */ "./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js");
 __webpack_require__.$Refresh$.runtime = __webpack_require__(/*! ./node_modules/react-refresh/runtime.js */ "./node_modules/react-refresh/runtime.js");
 
-var _jsxFileName = "/Users/yena/Downloads/chart-c3/my-app/src/components/Slider.jsx";
+var _jsxFileName = "/Users/yena/Library/Mobile Documents/com~apple~CloudDocs/Work/Scripts/Rangle/DS_FundingCase/chart-c3/my-app/src/components/Slider.jsx";
 
 
 
@@ -530,7 +530,7 @@ __webpack_require__.r(__webpack_exports__);
 /* provided dependency */ var __react_refresh_utils__ = __webpack_require__(/*! ./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js */ "./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js");
 __webpack_require__.$Refresh$.runtime = __webpack_require__(/*! ./node_modules/react-refresh/runtime.js */ "./node_modules/react-refresh/runtime.js");
 
-var _jsxFileName = "/Users/yena/Downloads/chart-c3/my-app/src/index.js";
+var _jsxFileName = "/Users/yena/Library/Mobile Documents/com~apple~CloudDocs/Work/Scripts/Rangle/DS_FundingCase/chart-c3/my-app/src/index.js";
 
 
 
@@ -85700,7 +85700,7 @@ if (true) {
 /******/ 	
 /******/ 	/* webpack/runtime/getFullHash */
 /******/ 	(() => {
-/******/ 		__webpack_require__.h = () => ("32de0a1f98728e73037f")
+/******/ 		__webpack_require__.h = () => ("3b623ec94463bb08114e")
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/global */
